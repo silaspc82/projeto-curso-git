@@ -1,0 +1,37 @@
+
+# List as branches
+git branch
+
+# Cria uma nova branche com o origin na master
+git branch <nomeDaBranche>
+
+# Deleta uma branch
+git branch -D <nomeDaBranch>
+
+# Seleciona uma branch
+git checkout <nomeDaBranch>
+
+# Cria uma branche e a Seleciona
+git checkout -b <nomeDaBranch>
+
+# Push de uma branch
+git push origin <nomeDaBranch>
+
+# Log com estatísticas
+git log --stat
+
+# Merge entre branches
+git branch
+git merge <nomeDaBranchNaoSelecionada>
+
+# Resetar as alterações de um arquivo
+git checkout -- nomeDoArquivo
+
+# Ver as modificações feitas em um arquivo
+git diff nomeDoArquivo
+
+# Editar a mensagem do último commit
+git commit --amend
+
+# Retirar um arquivo adicionado após o add no git
+git reset head nomeDoArquivo
